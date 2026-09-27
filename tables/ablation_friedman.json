@@ -1,0 +1,22 @@
+{
+ "ranks": {
+  "DF-GWO": 8.6,
+  "DF-GWO w/o group": 7.375,
+  "DF-GWO w/o chaos": 8.375,
+  "DF-GWO w/o Levy": 9.05,
+  "DF-GWO w/o OBL": 9.275,
+  "DF-GWO w/o restart": 7.175,
+  "DF-GWO w/o LS": 6.05,
+  "DF-GWO chaos only": 3.7,
+  "DF-GWO Levy only": 4.95,
+  "DF-GWO OBL only": 6.4,
+  "DF-GWO restart only": 5.0,
+  "DF-GWO LS only": 9.25,
+  "DF-GWO base": 5.8
+ },
+ "chi2": 53.87802197802192,
+ "p_chi": 2.873189194341208e-07,
+ "F": 5.500061994083986,
+ "p_F": 3.151683869440092e-08,
+ "cd": 4.080059597195446
+}

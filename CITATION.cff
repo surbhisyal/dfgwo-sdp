@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "DF-GWO: parsimonious software defect prediction"
+abstract: >-
+  Reproduction package for a binary Grey Wolf Optimizer combining correlation-based
+  dynamic feature grouping, a logistic-map chaotic control schedule, a Levy-flight
+  perturbation and a composite F1/AUC/MCC fitness with an explicit size penalty,
+  evaluated on twenty PROMISE, AEEEM and ReLink projects.
+authors:
+  - family-names: Syal
+    given-names: Surbhi
+    affiliation: "Department of Computer Science and Engineering, Manipal University Jaipur, India"
+  - family-names: Kaur
+    given-names: Jagdeep
+    affiliation: "Department of Computer Science and Engineering, Dr. B. R. Ambedkar National Institute of Technology Jalandhar, India"
+license: MIT
+type: software

@@ -1,0 +1,12 @@
+Comparator,Rank,DFGWO_better,Tie,DFGWO_worse,Wilcoxon_p,Holm_z,Holm_p,Significant,Cliffs_delta,Magnitude
+RW-GWO,3.29,8,0,16,2.643e-01,-0.56,1.000e+00,no,0.073,Negligible
+GA,3.58,11,0,13,2.897e-01,-0.28,1.000e+00,no,0.115,Negligible
+I-GWO,3.71,8,0,16,4.908e-01,-0.16,1.000e+00,no,0.09,Negligible
+SHO,5.71,16,0,8,3.449e-01,1.76,3.127e-01,no,-0.09,Negligible
+PSO,6.0,18,0,6,1.280e-01,2.04,2.059e-01,no,-0.052,Negligible
+mGWO,7.29,23,0,1,6.390e-05,3.28,6.171e-03,yes,-0.188,Small
+GWO,7.38,23,0,1,6.390e-05,3.36,5.403e-03,yes,-0.201,Small
+CGWO,7.79,22,0,2,2.052e-04,3.76,1.343e-03,yes,-0.205,Small
+WOA,8.38,22,0,2,8.463e-04,4.32,1.382e-04,yes,-0.253,Small
+SCA,10.42,22,0,2,1.311e-05,6.29,3.278e-09,yes,-0.323,Small
+HO,10.58,22,0,2,3.660e-05,6.45,1.270e-09,yes,-0.358,Medium
