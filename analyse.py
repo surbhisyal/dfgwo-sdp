@@ -302,6 +302,12 @@ def ablation():
 
 
 # ================================================================ SENSITIVITY
+FACTOR_TITLE = {"beta": "gamma  (size penalty)",
+                "chaos_lo": "lambda  (chaotic floor)",
+                "tau": "tau  (correlation threshold)",
+                "weights": "w  (fitness weights)"}
+
+
 def sensitivity():
     rows = []
     for f in glob.glob(os.path.join(RES, "sens_*.json")):
@@ -345,7 +351,8 @@ def sensitivity():
         ax.set_xticks(list(x)); ax.set_xticklabels(s["value"], rotation=45, fontsize=6)
         ax2 = ax.twinx(); ax2.bar(x, s["NFeat"], alpha=0.18, color="#7f8c8d")
         ax2.set_ylabel("#features", fontsize=7); ax2.grid(False)
-        ax.set_title(fam, fontsize=9); ax.legend(fontsize=6)
+        # the paper writes the size penalty as gamma (beta denotes the beta wolf)
+        ax.set_title(FACTOR_TITLE.get(fam, fam), fontsize=8.5); ax.legend(fontsize=6)
     plt.tight_layout(); plt.savefig(os.path.join(FIG, "fig9_sensitivity.png")); plt.close()
     return g
 
